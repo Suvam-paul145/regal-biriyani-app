@@ -1,0 +1,242 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>About Us - Regal Biriyani</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#e39100",
+                        "primary-container": "#6b1e1e",
+                        "primary-fixed": "#ffdad7",
+                        "tertiary": "#361f00",
+                        "tertiary-container": "#533200",
+                        "surface-tint": "#9b423f",
+                        "on-error": "#ffffff",
+                        "secondary-fixed": "#ffdfa0",
+                        "border-soft": "#E8D8B8",
+                        "surface-container-high": "#eee7dc",
+                        "on-secondary-fixed": "#261a00",
+                        "on-tertiary": "#ffffff",
+                        "spice-red": "#B91C1C",
+                        "tertiary-fixed": "#ffddb8",
+                        "surface-container-highest": "#e8e2d6",
+                        "surface-white": "#FFFFFF",
+                        "fresh-green": "#2F7D32",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed": "#2a1700",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-primary": "#ffb3ae",
+                        "inverse-surface": "#333028",
+                        "surface-container": "#f4ede1",
+                        "text-dark": "#1F1A17",
+                        "surface-variant": "#e8e2d6",
+                        "on-surface-variant": "#554241",
+                        "on-primary-fixed": "#410005",
+                        "surface-bright": "#fff9ef",
+                        "on-secondary-fixed-variant": "#5c4300",
+                        "on-primary-fixed-variant": "#7d2b2a",
+                        "primary-fixed-dim": "#ffb3ae",
+                        "outline": "#887270",
+                        "text-muted": "#6B5E55",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#715300",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "on-background": "#1e1b14",
+                        "on-surface": "#1e1b14",
+                        "surface-dim": "#e0d9ce",
+                        "surface-container-low": "#faf3e7",
+                        "on-error-container": "#93000a",
+                        "surface": "#fff9ef",
+                        "secondary": "#795900",
+                        "secondary-container": "#ffc641",
+                        "primary": "#4d070b",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "outline-variant": "#dbc0be",
+                        "inverse-on-surface": "#f7f0e4",
+                        "background": "#fff9ef",
+                        "on-primary-container": "#f0847f",
+                        "secondary-fixed-dim": "#f6be39"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-gap-mobile": "48px",
+                        "section-gap-desktop": "80px",
+                        "margin-desktop": "120px",
+                        "base": "8px",
+                        "gutter": "24px",
+                        "container-max-width": "1280px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "body-md": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "label-lg": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "headline-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-md": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body-md antialiased pb-24 md:pb-0 selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-border-soft shadow-sm">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 w-full max-w-container-max-width mx-auto">
+<button aria-label="Menu" class="text-primary hover:text-secondary transition-colors duration-300 active:scale-95 flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+<a class="font-display-lg text-headline-md text-primary tracking-tight font-extrabold flex-1 text-center" href="#">REGAL BIRIYANI</a>
+<button class="text-primary hover:text-secondary transition-colors duration-300 active:scale-95 font-label-lg text-label-lg">
+                EN/BN
+            </button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative px-margin-mobile py-section-gap-mobile text-center">
+<div class="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-secondary-fixed to-secondary-fixed-dim p-[2px] shadow-lg shadow-[rgba(107,30,30,0.15)] flex items-center justify-center">
+<div class="w-full h-full bg-surface-white rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+</div>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mb-4">Our Heritage</h1>
+<p class="font-body-lg text-body-lg text-text-muted mb-2">আমাদের ঐতিহ্য</p>
+<div class="max-w-prose mx-auto mt-8 relative">
+<span class="material-symbols-outlined text-4xl text-border-soft absolute -top-4 -left-4 opacity-50" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-body-md text-body-md text-on-surface-variant relative z-10 leading-relaxed">
+                    Bringing the authentic royal taste of Biryani to the heart of Phulia and Santipur. Our journey began with a simple desire: to serve food that feels like a warm embrace. Every grain of rice tells a story of tradition, slow-cooked to perfection with handpicked spices.
+                </p>
+</div>
+</section>
+<!-- Image Canvas -->
+<section class="px-margin-mobile mb-section-gap-mobile">
+<div class="w-full h-[530px] rounded-xl overflow-hidden shadow-[0_8px_30px_rgba(107,30,30,0.12)] relative">
+<img alt="A beautifully styled bowl of rich, aromatic royal biryani with saffron strands and tender meat pieces. The setting is luxurious yet warm, featuring subtle gold accents on a cream background, representing a premium culinary experience. High-key lighting highlights the texture of the long-grain rice and deep maroon spices." class="w-full h-full object-cover" data-alt="A beautifully styled bowl of rich, aromatic royal biryani with saffron strands and tender meat pieces. The setting is luxurious yet warm, featuring subtle gold accents on a cream background, representing a premium culinary experience. High-key lighting highlights the texture of the long-grain rice and deep maroon spices." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0LTzdBvhhWS70yEDaO9R_LNL1OFiW5rbceBlkTBje-T6k-f_-cFDpdrBQl15_fW0DjaACU1RMFalihA4EsTShPXMxt6yII0DbYKZ_KMNblK8kEHIRGI1d562LAHYO1wY65rzO3bJ5MXRsMKc6Gzec2zgTW7n3CS1yMMm8zo68ObbnOKPojRy_18xM2D4m4UXUWsvjeUC5vs2_D5lNIzDJZCyt_Zq1ieMXi99qyL--esL0sREyYKzhQUfkSALeaK7YftpUQDSj4kd_">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full text-center">
+<h2 class="font-headline-md text-headline-md text-surface-white mb-2">Crafted with Love</h2>
+<p class="font-body-md text-body-md text-surface-variant">ভালোবাসা দিয়ে তৈরি</p>
+</div>
+</div>
+</section>
+<!-- Freshness Promise Bento -->
+<section class="px-margin-mobile py-section-gap-mobile bg-surface-container-low">
+<div class="text-center mb-10">
+<h2 class="font-headline-md text-headline-md text-primary mb-2">The Royal Promise</h2>
+<div class="w-12 h-1 bg-secondary-fixed mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 gap-4">
+<!-- Promise Card 1 -->
+<div class="bg-surface-white p-6 rounded-xl shadow-[0_4px_20px_rgba(107,30,30,0.06)] border border-border-soft/30 flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 bg-surface rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-spice-red" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-primary mb-1">100% Fresh Ingredients</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">We source our meat and spices daily from trusted local markets. No compromises.</p>
+<p class="font-label-sm text-label-sm text-secondary mt-2">শতভাগ তাজা উপাদান</p>
+</div>
+</div>
+<!-- Promise Card 2 -->
+<div class="bg-surface-white p-6 rounded-xl shadow-[0_4px_20px_rgba(107,30,30,0.06)] border border-border-soft/30 flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 bg-surface rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-primary mb-1">Slow-Cooked Perfection</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">Prepared using traditional Dum Pukht methods over slow fire to lock in every ounce of flavor.</p>
+<p class="font-label-sm text-label-sm text-secondary mt-2">ঐতিহ্যবাহী রান্না</p>
+</div>
+</div>
+<!-- Promise Card 3 -->
+<div class="bg-surface-white p-6 rounded-xl shadow-[0_4px_20px_rgba(107,30,30,0.06)] border border-border-soft/30 flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 bg-surface rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-primary mb-1">Hygiene Certified</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">Maintaining the highest standards of cleanliness in our royal kitchen.</p>
+<p class="font-label-sm text-label-sm text-secondary mt-2">পরিচ্ছন্নতার নিশ্চয়তা</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Local Love Section -->
+<section class="px-margin-mobile py-section-gap-mobile">
+<div class="bg-primary rounded-2xl p-8 text-center shadow-[0_12px_40px_rgba(77,7,11,0.2)] relative overflow-hidden">
+<!-- Abstract Pattern Background -->
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+<span class="material-symbols-outlined text-secondary-fixed text-5xl mb-4 relative z-10" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<h2 class="font-headline-md text-headline-md text-surface-white mb-4 relative z-10">Local Favourite</h2>
+<p class="font-body-md text-body-md text-surface-variant mb-6 relative z-10">
+                    Proudly serving the wonderful communities of Phulia and Santipur. Your love makes us who we are.
+                </p>
+<div class="inline-flex items-center gap-2 px-4 py-2 bg-surface-white/10 backdrop-blur-sm rounded-full border border-surface-white/20 relative z-10">
+<span class="material-symbols-outlined text-secondary-fixed text-sm">location_on</span>
+<span class="font-label-sm text-label-sm text-surface-white">Phulia &amp; Santipur</span>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-center items-center gap-gutter p-4 md:hidden bg-primary shadow-[0_-4px_12px_rgba(107,30,30,0.1)] z-50">
+<!-- Not actively on 'Call Now' or 'WhatsApp', but providing the persistent actions as required by JSON content -->
+<a class="flex items-center justify-center gap-2 text-on-primary px-6 py-3 font-label-lg text-label-lg hover:bg-primary-fixed-dim hover:text-on-primary-fixed-variant active:scale-[0.98] transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">call</span>
+            Call Now
+        </a>
+<a class="flex items-center justify-center gap-2 text-on-primary px-6 py-3 font-label-lg text-label-lg hover:bg-primary-fixed-dim hover:text-on-primary-fixed-variant active:scale-[0.98] transition-all rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">chat</span>
+            WhatsApp
+        </a>
+</nav>
+<!-- Footer (Visible on desktop, pushed down by bottom nav on mobile) -->
+<footer class="relative w-full border-t border-border-soft bg-surface-container-highest grid grid-cols-1 md:grid-cols-4 gap-section-gap-mobile md:gap-section-gap-desktop px-margin-mobile md:px-margin-desktop py-section-gap-desktop pb-32 md:pb-section-gap-desktop">
+<div class="md:col-span-1">
+<div class="font-display-lg text-headline-md text-primary mb-4">REGAL BIRIYANI</div>
+<p class="font-body-md text-body-md text-primary">) 2024 Regal Biriyani. Heritage in Every Grain.</p>
+</div>
+<div class="flex flex-col gap-4">
+<a class="font-body-md text-body-md text-text-muted hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">The Menu</a>
+<a class="font-body-md text-body-md text-secondary font-semibold underline opacity-80 hover:opacity-100" href="#">Our Heritage</a>
+<a class="font-body-md text-body-md text-text-muted hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Reservations</a>
+<a class="font-body-md text-body-md text-text-muted hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Contact Us</a>
+</div>
+</footer>
+
+
+</body></html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Regal Biryanii - Royal Taste in Phulia</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Noto+Serif+Bengali:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#e39100",
+                        "text-muted": "#6B5E55",
+                        "background": "#fff9ef",
+                        "text-dark": "#1F1A17",
+                        "inverse-surface": "#333028",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "primary-container": "#6b1e1e",
+                        "error-container": "#ffdad6",
+                        "on-surface": "#1e1b14",
+                        "on-secondary-fixed": "#261a00",
+                        "tertiary-fixed": "#ffddb8",
+                        "surface-container-high": "#eee7dc",
+                        "on-primary-container": "#f0847f",
+                        "surface-bright": "#fff9ef",
+                        "primary": "#4d070b",
+                        "on-primary-fixed": "#410005",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#f6be39",
+                        "surface": "#fff9ef",
+                        "fresh-green": "#2F7D32",
+                        "primary-fixed": "#ffdad7",
+                        "surface-variant": "#e8e2d6",
+                        "tertiary": "#361f00",
+                        "surface-white": "#FFFFFF",
+                        "on-tertiary-fixed": "#2a1700",
+                        "surface-tint": "#9b423f",
+                        "on-surface-variant": "#554241",
+                        "inverse-primary": "#ffb3ae",
+                        "secondary": "#795900",
+                        "secondary-fixed": "#ffdfa0",
+                        "error": "#ba1a1a",
+                        "border-soft": "#E8D8B8",
+                        "on-primary-fixed-variant": "#7d2b2a",
+                        "primary-fixed-dim": "#ffb3ae",
+                        "surface-container": "#f4ede1",
+                        "inverse-on-surface": "#f7f0e4",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#e8e2d6",
+                        "outline-variant": "#dbc0be",
+                        "surface-container-low": "#faf3e7",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#533200",
+                        "on-error": "#ffffff",
+                        "outline": "#887270",
+                        "secondary-container": "#ffc641",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "surface-dim": "#e0d9ce",
+                        "spice-red": "#B91C1C",
+                        "on-secondary-container": "#715300",
+                        "on-background": "#1e1b14",
+                        "on-secondary-fixed-variant": "#5c4300",
+                        "brand-bg": "#FFF8EC",
+                        "brand-maroon": "#6B1E1E",
+                        "brand-gold": "#D4A017"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px",
+                        "2xl": "1rem",
+                        "3xl": "1.5rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "section-gap-desktop": "80px",
+                        "base": "8px",
+                        "margin-desktop": "120px",
+                        "margin-mobile": "20px",
+                        "section-gap-mobile": "48px",
+                        "container-max-width": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Playfair Display", "serif"],
+                        "label-lg": ["Inter", "sans-serif"],
+                        "headline-lg-mobile": ["Playfair Display", "serif"],
+                        "label-sm": ["Inter", "sans-serif"],
+                        "display-lg": ["Playfair Display", "serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "headline-lg": ["Playfair Display", "serif"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "bengali": ["Noto Serif Bengali", "serif"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                        "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "display-lg": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #fff9ef; color: #1F1A17; }
+        .glass-nav { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background-color: rgba(255, 249, 239, 0.85); border-bottom: 1px solid #E8D8B8; }
+        .royal-shadow { box-shadow: 0 10px 30px -10px rgba(107, 30, 30, 0.08); }
+        .gold-border-hover:hover { border-bottom: 2px solid #D4A017; margin-bottom: -2px; }
+        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(232, 216, 184, 0.5); }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TopNavBar -->
+<nav class="glass-nav docked full-width top-0 sticky z-50 transition-transform">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max-width mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+<span>Regal Biryanii</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-text-muted hover:text-secondary-container transition-colors duration-300" href="#">Our Story</a>
+<a class="text-text-muted hover:text-secondary-container transition-colors duration-300" href="#menu">Signature Menu</a>
+<a class="text-text-muted hover:text-secondary-container transition-colors duration-300" href="#offers">Offers</a>
+<a class="text-text-muted hover:text-secondary-container transition-colors duration-300" href="#location">Location</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-primary hover:text-secondary-container font-label-lg text-label-lg hidden md:block">
+                    EN | <span class="font-bengali font-semibold">বাংলা</span>
+</button>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-lg font-label-lg text-label-lg shadow-sm hover:bg-primary transition-colors border-b-2 border-transparent gold-border-hover flex items-center gap-2 scale-95 active:scale-90">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+                    Order Now
+                </button>
+</div>
+</div>
+</nav>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative pt-12 pb-24 md:pt-20 md:pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max-width mx-auto overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="z-10 order-2 md:order-1">
+<h1 class="font-display-lg text-display-lg text-primary mb-4 leading-tight">
+<span class="block text-brand-gold italic font-normal text-4xl md:text-5xl mb-2">Regal</span>
+                        Biryanii
+                    </h1>
+<p class="font-body-lg text-body-lg text-text-muted mb-8 max-w-md">
+                        Royal Taste. Rich Aroma. Unforgettable Flavour.<br>
+<span class="font-bengali text-base mt-2 block">রাজকীয় স্বাদ। সমৃদ্ধ সুবাস। অবিস্মরণীয় স্বাদ।</span>
+</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary-container text-on-primary px-8 py-3 rounded-lg font-label-lg text-label-lg shadow-md hover:bg-primary transition-all flex items-center justify-center gap-2">
+                            View Menu
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="bg-transparent border border-brand-gold text-brand-gold px-8 py-3 rounded-lg font-label-lg text-label-lg hover:bg-surface-container-low transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">call</span>
+                            8514054004
+                        </button>
+</div>
+</div>
+<div class="relative order-1 md:order-2 h-[400px] md:h-[600px] w-full rounded-full overflow-hidden border-8 border-surface-white royal-shadow">
+<img alt="A high-quality, professional food photograph of an authentic Indian Biryani served in a traditional brass or copper handi. The rice is perfectly cooked with visible long grains, saffron streaks, and tender pieces of meat. The lighting is warm and inviting, highlighting the steam rising from the dish, set against a luxurious, slightly blurred light-mode background with soft beige and deep red accents to evoke a premium dining experience." class="w-full h-full object-cover" data-alt="A high-quality, professional food photograph of an authentic Indian Biryani served in a traditional brass or copper handi. The rice is perfectly cooked with visible long grains, saffron streaks, and tender pieces of meat. The lighting is warm and inviting, highlighting the steam rising from the dish, set against a luxurious, slightly blurred light-mode background with soft beige and deep red accents to evoke a premium dining experience." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPGl3_i19y8Rgk_r_L_uF_ZH_gmD6H5pHEUZ0omdZRESf0OgAyXVFmY1neM_HacedhcX9UEqpldCGaSJwwTSNBDMBMaFNCbeWu90T4QSliwSc5t7hOyumncfgV5kymoibpw6dH_oHc9m92bVPYvl8w35aDHd9S5NwAlNnFo9bmxX-8VONG8AuYYXX8S_sCDDy6YVgvF9pEAmfNjQ5m22x0CdRj6Nk-bTgy9WgTf7K6hlKKQjMJhO87AQdsOE9keSltVDn3kAEkEqpt">
+<!-- Floating Badges -->
+<div class="absolute top-10 left-0 md:-left-8 bg-surface-white py-2 px-4 rounded-full shadow-lg flex items-center gap-2 border border-border-soft glass-card">
+<span class="material-symbols-outlined text-fresh-green" style="font-variation-settings: 'FILL' 1;">eco</span>
+<span class="font-label-sm text-label-sm font-semibold text-text-dark">Freshly Prepared</span>
+</div>
+<div class="absolute bottom-20 right-0 md:-right-8 bg-surface-white py-2 px-4 rounded-full shadow-lg flex items-center gap-2 border border-border-soft glass-card">
+<span class="material-symbols-outlined text-brand-gold" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-semibold text-text-dark">Local Favourite</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Order Bar -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max-width mx-auto -mt-16 relative z-20 mb-section-gap-mobile md:mb-section-gap-desktop">
+<div class="bg-surface-white rounded-2xl p-6 md:p-8 royal-shadow border border-border-soft flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-4 w-full md:w-auto">
+<div class="bg-surface-container-low p-3 rounded-full text-primary">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-text-muted">Visit Us</p>
+<p class="font-label-lg text-label-lg text-text-dark">Phulia Bus Stand</p>
+</div>
+</div>
+<div class="hidden md:block w-px h-12 bg-border-soft"></div>
+<div class="flex items-center gap-4 w-full md:w-auto">
+<div class="bg-surface-container-low p-3 rounded-full text-primary">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-text-muted">Opening Hours</p>
+<p class="font-label-lg text-label-lg text-text-dark">11:00 AM - 10:30 PM</p>
+</div>
+</div>
+<div class="w-full md:w-auto">
+<button class="w-full bg-[#25D366] text-white px-6 py-3 rounded-lg font-label-lg text-label-lg shadow-sm hover:bg-[#20bd5a] transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+                        Order via WhatsApp
+                    </button>
+</div>
+</div>
+</section>
+<!-- Why Regal Biryanii -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop px-margin-mobile md:px-margin-desktop max-w-container-max-width mx-auto">
+<div class="text-center mb-12">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-4">Why Regal Biryanii is Famous in Phulia</h2>
+<p class="font-body-md text-body-md text-text-muted max-w-2xl mx-auto">Experience the legacy of authentic spices and slow-cooked perfection that has made us the beloved choice of our town.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-white p-6 rounded-2xl royal-shadow border border-border-soft hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-brand-gold mb-4">
+<span class="material-symbols-outlined">air</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[20px] text-text-dark mb-2">Rich Aroma</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">Our secret blend of spices ensures every grain is infused with a captivating scent.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-white p-6 rounded-2xl royal-shadow border border-border-soft hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-fresh-green mb-4">
+<span class="material-symbols-outlined">local_dining</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[20px] text-text-dark mb-2">Freshly Prepared</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">Cooked fresh daily in small batches to maintain the highest quality and texture.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-white p-6 rounded-2xl royal-shadow border border-border-soft hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-brand-maroon mb-4">
+<span class="material-symbols-outlined">crown</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[20px] text-text-dark mb-2">Royal Taste</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">A regal recipe passed down, delivering a rich, authentic culinary experience.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-white p-6 rounded-2xl royal-shadow border border-border-soft hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined">favorite</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[20px] text-text-dark mb-2">Loved by Locals</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm">Proudly serving the Phulia community, becoming a staple for celebrations.</p>
+</div>
+</div>
+</section>
+<!-- Signature Menu (Bento Grid Style) -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-surface-container-low" id="menu">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max-width mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-10">
+<div>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">Signature Menu</h2>
+<p class="font-body-md text-body-md text-text-muted">Curated selections from our royal kitchen.</p>
+</div>
+<div class="flex gap-2 mt-4 md:mt-0 overflow-x-auto pb-2 w-full md:w-auto hide-scrollbar">
+<button class="px-4 py-2 bg-primary-container text-on-primary rounded-full font-label-sm text-label-sm whitespace-nowrap">All</button>
+<button class="px-4 py-2 bg-surface-white border border-border-soft text-text-muted hover:text-primary rounded-full font-label-sm text-label-sm whitespace-nowrap">Biryani</button>
+<button class="px-4 py-2 bg-surface-white border border-border-soft text-text-muted hover:text-primary rounded-full font-label-sm text-label-sm whitespace-nowrap">Chicken</button>
+<button class="px-4 py-2 bg-surface-white border border-border-soft text-text-muted hover:text-primary rounded-full font-label-sm text-label-sm whitespace-nowrap">Mutton</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Featured Large Card -->
+<div class="md:col-span-8 bg-surface-white rounded-3xl overflow-hidden royal-shadow flex flex-col md:flex-row border border-border-soft">
+<div class="w-full md:w-1/2 h-64 md:h-auto">
+<img alt="Close-up shot of a luxurious Mutton Biryani plate. The focus is on a large, tender piece of mutton resting on a bed of aromatic, multi-colored basmati rice. Garnished with fried onions (birista) and fresh coriander. The warm, inviting lighting highlights the rich spices and premium ingredients, matching a clean, light-mode design system with maroon accents." class="w-full h-full object-cover" data-alt="Close-up shot of a luxurious Mutton Biryani plate. The focus is on a large, tender piece of mutton resting on a bed of aromatic, multi-colored basmati rice. Garnished with fried onions (birista) and fresh coriander. The warm, inviting lighting highlights the rich spices and premium ingredients, matching a clean, light-mode design system with maroon accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsmGJrK6SXbBUgfc25cRJUGOGQy9XhnSPn-74fqoqYzQgEuy5rQpZn52mGcCrdXLiD5mB_6Gst9wW50blpD0Li-peP3zgAhHFkfisiMc8OgK8pdDHSJk7Ysu6dXP6EsG9_CK4ooKDLdVKYTLSDl2_zixnT63sfvSjAiNescCmrCaWsyaKPzHiuyUnF3BP69suVPnPBj-xz9O4lxNCDyShAg-t8f5rwoWnaR8SJOQTbmtveS4_1l6oPg_a8lDQ59wg8Te0svCEcZcB2">
+</div>
+<div class="p-8 w-full md:w-1/2 flex flex-col justify-center">
+<div class="inline-flex items-center gap-1 bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full text-xs font-semibold w-fit mb-4">
+<span class="material-symbols-outlined text-[14px]">star</span> Regal Special
+                            </div>
+<h3 class="font-headline-md text-headline-md text-[24px] text-text-dark mb-2">Royal Mutton Biryani</h3>
+<p class="font-body-md text-body-md text-text-muted mb-6">Slow-cooked tender mutton pieces with fragrant long-grain basmati rice, infused with saffron and traditional royal spices.</p>
+<div class="flex items-center justify-between mt-auto">
+<span class="font-headline-md text-headline-md text-[20px] text-brand-gold">Contact for Price</span>
+<button class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Medium Card 1 -->
+<div class="md:col-span-4 bg-surface-white rounded-3xl p-6 royal-shadow border border-border-soft flex flex-col">
+<div class="h-40 rounded-2xl overflow-hidden mb-4">
+<img alt="A beautifully plated portion of Chicken Biryani served in a modern, clean white bowl on a light wooden table. The chicken is succulent and coated in a rich, reddish-brown masala, surrounded by perfectly separated grains of rice. The aesthetic is bright, minimalist, and appetizing, designed to fit seamlessly into a premium light-mode user interface." class="w-full h-full object-cover" data-alt="A beautifully plated portion of Chicken Biryani served in a modern, clean white bowl on a light wooden table. The chicken is succulent and coated in a rich, reddish-brown masala, surrounded by perfectly separated grains of rice. The aesthetic is bright, minimalist, and appetizing, designed to fit seamlessly into a premium light-mode user interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwcr3OHrJDCeJG82BrWqVKRysPUHV6OL8dKZ4dLzDt-WapwS_F8uhvbtPS5pKGd17-Vwqr0fyp-uzFlCRrgigH41-oSwZCCGjgmoZgi2ecFY91yYSY_mPdNTEA37FtarikOYVl8RyZCVRxbfbm739mwsCyvhO6oharvyYTPSCoO5FxEFl7nULIckYXFY9VZv_XNjSDOB4VAsBN1oF-mw4Ew0VLp69qefUdLIzGDdmO55AaTFV1SI6A_pPVkyJvq1HQTRV-EQxRL8U">
+</div>
+<h3 class="font-headline-md text-headline-md text-[20px] text-text-dark mb-2">Classic Chicken Biryani</h3>
+<p class="font-body-md text-body-md text-text-muted text-sm mb-4 flex-grow">A perfect blend of spices and tender chicken.</p>
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-brand-gold">Contact for Price</span>
+<button class="bg-primary-container text-on-primary px-4 py-2 rounded-lg font-label-sm text-label-sm hover:bg-primary transition-colors">
+                                Order Now
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container full-width p-margin-mobile md:p-margin-desktop flex flex-col md:flex-row justify-between items-center gap-base w-full flat no shadows none">
+<div class="font-headline-md text-headline-md text-secondary-fixed mb-4 md:mb-0">
+                Regal Biryanii
+            </div>
+<div class="flex flex-wrap justify-center gap-6 mb-4 md:mb-0">
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-on-primary hover:underline transition-all opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-on-primary hover:underline transition-all opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-on-primary hover:underline transition-all opacity-80 hover:opacity-100" href="#">Refund Policy</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-on-primary hover:underline transition-all opacity-80 hover:opacity-100" href="#">Contact Us</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-on-primary hover:underline transition-all opacity-80 hover:opacity-100" href="#">Sitemap</a>
+</div>
+<div class="font-label-sm text-label-sm text-on-primary dark:text-on-primary-container opacity-60 text-center md:text-right">
+                © 2024 Regal Biryanii Phulia. All rights reserved. Crafted for Royalty.
+            </div>
+</footer>
+<!-- Floating Actions -->
+<div class="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
+<a class="w-14 h-14 bg-surface-white text-primary rounded-full shadow-lg flex items-center justify-center border border-border-soft hover:scale-110 transition-transform" href="tel:8514054004">
+<span class="material-symbols-outlined text-[28px]">call</span>
+</a>
+<a class="w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform" href="https://wa.me/918514054004">
+<span class="material-symbols-outlined text-[28px]">chat</span>
+</a>
+</div>
+</main>
+</body></html>
